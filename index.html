@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Memory Matching Game</title>
+  </head>
+  <body>
+    <div id="game-over">
+      <h1 id="game-over-message"></h1>
+      <h1 id="game-over-time"></h1>
+    </div>
+    <div class="timer">
+      <h2>Timer</h2>
+      <h3 id="timer-countdown">00:00</h3>
+      <h4 id="message"></h4>
+    </div>
+    <div class="mainContainer">
+      <div class="memoryCard" dataName="cat1">
+        <img src="/img/king.png" class="frontFace" alt="king card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat2">
+        <img src="/img/king.png" class="frontFace" alt="king card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat3">
+        <img src="/img/queen.png" class="frontFace" alt="queen card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat4">
+        <img src="/img/queen.png" class="frontFace" alt="queen card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat5">
+        <img src="/img/joker.jpg" class="frontFace" alt="joker card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat6">
+        <img src="/img/joker.jpg" class="frontFace" alt="joker card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat7">
+        <img src="/img/ace.png" class="frontFace" alt="ace card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat8">
+        <img src="/img/ace.png" class="frontFace" alt="ace card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat9">
+        <img src="/img/snake.jpg" class="frontFace" alt="snake card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="cat10">
+        <img src="/img/snake.jpg" class="frontFace" alt="snake card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="ca11">
+        <img src="/img/graduatet.jpeg" class="frontFace" alt="graduate card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+      <div class="memoryCard" dataName="ca12">
+        <img src="/img/graduatet.jpeg" class="frontFace" alt="graduate card" />
+        <img src="/img/js_badge.png" class="backFace" alt="js badge" />
+      </div>
+    </div>
+    <div class="clickCounter">
+      <h2>Click Count</h2>
+      <h3 id="click-count-value">0</h3>
+
+      <button class="resetButton" onclick="resetButton() ">
+        <b>Reset</b>
+      </button>
+      <script src="scripts.js "></script>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
