@@ -19,12 +19,6 @@ body {
   left: 775px;
 }
 
-.time-taken {
-  position: absolute;
-  top: 100px;
-  left: 900px;
-}
-
 .time-count {
   position: absolute;
   top: 150px;
@@ -121,7 +115,7 @@ body {
 #game-over-message {
   text-align: center;
 }
-
+*/
 .timer {
   color: black;
   text-align: center;
@@ -134,4 +128,3 @@ body {
   padding: 10px;
   z-index: 10px;
 }
-*/

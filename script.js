@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll(".memoryCard");
 clickCounter = 0;
 const timeH = document.querySelector("h1");
-let timeSecond = 120;
+let timeSecond = 5;
 
 displayTime(timeSecond);
 
@@ -77,8 +77,17 @@ function shuffle() {
     card.style.order = ramdomPos;
   });
 }
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 function resetButton() {
   location.reload();
+}
+
+function alertpopup() {
+  if (countDown > 0) {
+    alert("you won");
+  } else {
+    alert("you lost");
+  }
 }
