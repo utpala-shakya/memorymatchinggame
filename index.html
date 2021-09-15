@@ -8,6 +8,9 @@
     <title>Memory Matching Game</title>
   </head>
   <body>
+    <header>
+      <h1>Memory Game</h1>
+    </header>
     <div id="game-over">
       <h1 id="game-over-message"></h1>
       <h1 id="game-over-time"></h1>
@@ -17,64 +20,64 @@
       <h3 id="timer-countdown">00:00</h3>
       <h4 id="message"></h4>
     </div>
+    <div class="game-info">Flips <span id="flips">0</span></div>
     <div class="mainContainer">
-      <div class="memoryCard" dataName="cat1">
+      <div class="memoryCard" dataFramework="cat1">
         <img src="/img/king.png" class="frontFace" alt="king card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat2">
+      <div class="memoryCard" dataFramework="cat2">
         <img src="/img/king.png" class="frontFace" alt="king card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat3">
+      <div class="memoryCard" dataFramework="cat3">
         <img src="/img/queen.png" class="frontFace" alt="queen card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat4">
+      <div class="memoryCard" dataFramework="cat4">
         <img src="/img/queen.png" class="frontFace" alt="queen card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat5">
+      <div class="memoryCard" dataFramework="cat5">
         <img src="/img/joker.jpg" class="frontFace" alt="joker card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat6">
+      <div class="memoryCard" dataFramework="cat6">
         <img src="/img/joker.jpg" class="frontFace" alt="joker card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat7">
+      <div class="memoryCard" dataFramework="cat7">
         <img src="/img/ace.png" class="frontFace" alt="ace card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat8">
+      <div class="memoryCard" dataFramework="cat8">
         <img src="/img/ace.png" class="frontFace" alt="ace card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat9">
+      <div class="memoryCard" dataFramework="cat9">
         <img src="/img/snake.jpg" class="frontFace" alt="snake card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="cat10">
+      <div class="memoryCard" dataFramework="cat10">
         <img src="/img/snake.jpg" class="frontFace" alt="snake card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="ca11">
+      <div class="memoryCard" dataFramework="ca11">
         <img src="/img/graduatet.jpeg" class="frontFace" alt="graduate card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
-      <div class="memoryCard" dataName="ca12">
+      <div class="memoryCard" dataFramework="ca12">
         <img src="/img/graduatet.jpeg" class="frontFace" alt="graduate card" />
         <img src="/img/js_badge.png" class="backFace" alt="js badge" />
       </div>
     </div>
     <div class="clickCounter">
       <h2>Click Count</h2>
-      <h3 id="click-count-value">0</h3>
+      <h3 id="clickCounter">0</h3>
 
       <button class="resetButton" onclick="resetButton() ">
         <b>Reset</b>
       </button>
-      <script src="scripts.js "></script>
     </div>
     <script src="/script.js"></script>
   </body>
