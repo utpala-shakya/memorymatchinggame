@@ -20,7 +20,7 @@ function flipCard() {
 }
 
 function checkForMatch() {
-  if (firstCard.dataset.framework === SecondCard.dataset.framework) {
+  if (firstCard.dataset.framework === secondCard.dataset.framework) {
     disableCards();
     return;
   }
@@ -30,7 +30,7 @@ function checkForMatch() {
 
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
-  SecondCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
 }
 
 function unflipCards() {
